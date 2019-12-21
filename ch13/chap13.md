@@ -22,3 +22,20 @@ e.g. XML:
 * desribes a contract that is acceptible for XML between systems
 * modern schema is from W3C (XSD) -- otherwise schema's are available but rarely used
 * can add constraints to set min and max number of variables, and set data types to share info
+
+**Javascript Object Notation**
+* may never need to use XML as it can be too powerful for what we need
+* serialization format that is being used most
+* data returns as a dictionary
+* can also return as a list (containing dictionaries)
+
+**Service Oriented Approach / Architecture**
+* best example is an airline booking website -- reads data to allow car/hotel booking too
+* build using **application process interface** (API)
+* e-framework provides the standard to create a service oriented architecture (dead project)
+
+**Using Application Programming Interfaces (API)**
+* more common to be the consumer than producer of API
+* e.g. google maps API geocodes addresses
+* may have security and rate limiting (generally charge for access)
+* authentication and authorization normally used

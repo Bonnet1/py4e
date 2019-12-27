@@ -38,3 +38,7 @@ Once have model, need to augment with:
 - **Foreign Key**, add a starting point in one table to point to the primary key in another (e.g. album_id, genre_id)
 
 Create end of arrows before the beginning 
+
+**Many to Many Relationships**
+
+e.g. books and authors, need to add a **connection** tabls with two foreign keys (usually no separate primary key)
